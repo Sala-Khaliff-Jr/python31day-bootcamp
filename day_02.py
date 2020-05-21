@@ -129,3 +129,19 @@ body = {
 }
 
 # print(body['query']['filtered']['filter']['term']['created_by'])
+
+
+
+# Bonus Section
+
+# Implementing Do WHile Loop in python
+
+# implement do while
+
+# loop = 5
+# i = 0
+# while True:
+#     print(i)
+#     i += 1
+#     if loop == i:
+#         break
