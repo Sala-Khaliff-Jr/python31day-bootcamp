@@ -2,54 +2,78 @@
 
 # Qn 1
 
+
+# def sumOfThreeNumbers(a,b,c=0):
+#     print(a+b+c)
+
+# sumOfThreeNumbers(1,2)
+
+
 # def acceptValues(*args):
 #     print(args)
-# acceptValues('sala','sowmy','ajeeth')
+# acceptValues('ajeeth','nithees')
+
+# def acceptValues(a):
+#     print(a)
+# acceptValues(1)
+
+# for i in range(2,5,2):
+#     print(i)
+
 
 
 
 # Qn 2
 
-# def myFunc(*argList):  
+# def myFunc(*argList):
+#     print(type(argList))  
 #     for argx in argList:  
 #         print (argx) 
-    
-# myFunc('I', 'am', 'Learning', 'Python')
+
+# myFunc('I', 'am', 'Learning', 'Python','now')
+
 
 # def myFunc1(arg1, arg2, arg3, arg4):
 #         print(arg1, arg2, arg3, arg4)
 
-# myFunc1('I', 'am', 'Learning', 'Python')
+# myFunc1('I', 'am', 'Learning', 'Python','now')
+
 
 
 # Qn 3
 
 # def myFuncArgs(**kwargs):
+#     # print(type(kwargs))
 #     for emp, age in kwargs.items():
-#         print ("%s's age is %s." %(emp, age))
+#         print (" %s's age is %s." %(emp, age))
 
-# myFuncArgs(Kalley=22, Tom=32, John=25)
+# myFuncArgs(John=25,Kalley=22, Tom=32 )
 
 
 
 # Qn 4
 
-# def A():
+# def A(x):
 #     print('outer function')
-#     # print(x)
-#     def B(x):
-#         # x=20
+#     print(x)
+#     def B():
+#         x=20
 #         print('inner function')
 #         print(x)
+#         def c(x):
+#             print(x)
+#         return c
 #     return B
 #     print('Exit')
 
-# A()(7)
+# A(7)()(10)
 
 
+dict_ex = {'key':{'lonestart':{}}}
 
 junk = {
-    "characters": {
+    "characters": 
+    {
         "Lonestar": {
             "id": 55923,
             "role": "renegade",
@@ -87,46 +111,58 @@ junk = {
 # for i in junk['characters'].keys():
 #     print(junk['characters'][i]['role'],' '.join(map(str,junk['characters'][i]['items'])))
 
-# [ print( junk['characters'][key]['role'] , print(*(junk['characters'][key]['items']))) for key in junk['characters'].keys()]
+# [ print( junk['characters'][key]['role'] ,
+#  print(*(junk['characters'][key]['items']))) for key in junk['characters'].keys()]
 
+
+# l = [1,2,3]
+# print(*(l))
 
 
 # Qn 6
 
 # a = [1,2,3]
+
 # a[0] = 0
 # a[1] = 1
 # a[2] = 2
+
+# a = [0,1,2]
 
 # i=0
 
 # while (i<3):
 #     a[i] = 1
 #     i+=1
-    
 # print(a)
 
+# i = 3
+# a[2] = 1
+
+# a[0] = 1
+# a[1] = 1
+# a[2] = 1
 
 
 # Qn 7
 
-body = {
-    'query': 
-    {
-        'filtered': 
-        {
-            'query': 
-            {
-                'match': 
-                {'description': 'addictive'}
-            },
-            'filter': 
-            {
-                'term': {'created_by': 'Mats'}
-            }
-        }
-    }
-}
+# body = {
+#     'query': 
+#     {
+#         'filtered': 
+#         {
+#             'query': 
+#             {
+#                 'match': 
+#                 {'description': 'addictive'}
+#             },
+#             'filter': 
+#             {
+#                 'term': {'created_by': 'Mats'}
+#             }
+#         }
+#     }
+# }
 
 # print(body['query']['filtered']['filter']['term']['created_by'])
 
@@ -145,3 +181,4 @@ body = {
 #     i += 1
 #     if loop == i:
 #         break
+
