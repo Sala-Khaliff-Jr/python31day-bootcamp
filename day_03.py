@@ -3,19 +3,20 @@
 # Day 2 
 # Question 2 
 
-a = [1,2,3]
-a[0] = 0
-a[1] = 1
-a[2] = 2
 
+a = [0,1,2]
 i=0
-
 while (i<3):
     a[i] = 1
     i+=1
-    
 print(a)
 
+# Internal
+i = 0
+
+a[0] = 0
+a[1] = 1
+a[2] = 2
 
 # Day 3 
 # Qn 5
