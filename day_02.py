@@ -21,8 +21,6 @@
 #     print(i)
 
 
-
-
 # Qn 2
 
 # def myFunc(*argList):
