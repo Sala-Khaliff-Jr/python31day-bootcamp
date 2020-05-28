@@ -20,7 +20,6 @@
 # print(*(list(min)),sep=' ')
 # print(*(list(max)),sep=' ')
 
-
 # str_list = input().split()
 # str_len = [len(word) for word in str_list]
 # print(str_list.index(min(str_len)), min(str_len))
