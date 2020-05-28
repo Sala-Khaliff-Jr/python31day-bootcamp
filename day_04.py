@@ -1,40 +1,62 @@
 # https://github.com/rvsp/python-31days-bootcamp/blob/master/README-004.md
 # https://github.com/Sala-Khaliff-Jr/python31day-bootcamp
 
+
+# Qn 1
+
+string_value= 'Wikipedia has been criticized'.split()
+# ['aidepikiW', 'sah', 'rof', 'rof']
+
+# print( [ word[::-1] if len(word) % 3 == 0 else word \
+#     for word in string_value ] )
+
+
+# Qn 2 
+
 # words = "Hi How are You"
+# op = "Hi woH era You"
 
-# words = input().split()
-# x = [words[0]]+[words[i][::-1] for i in range(1,len(words)-1)]+[words[len(words)-1].replace('.','')]
-# print(*(x))
+# x = [ words[0] ] + \
+#     [words[i][::-1] for i in range(1,len(words)-1)] + \
+#     [ words[-1]]
+
+# print(*(x))a
 
 
 
-# ip = '234516789887651432'
-# x = [''.join(reversed(ip[i:i+2])) for i in range(0,len(ip),2)]
+# Qn 3
+
+ip = '234516789887651432'
+op = '325461878978564123'
+
+# x = [''.join( reversed(ip[i:i+2])) for i in range(0, len(ip), 2)]
 # print(*(x),sep='')
 
 
-# value="MySql Exercises Backend programming guvi geek network"
+# Qn 4
+
+# ip:
+value="MySql Exercises Backend programming guvi geek network"
+
+# op:
+# guvi 4
+# programming 11
+
+# str_list = value.split()
+# # ['MySql', 'Exercises', 'Backend', 'programming', 'guvi', 'geek', 'network'] 
+
+# str_len = [len(word) for word in str_list]
+# # [5, 9, 7, 11, 4, 4, 7]
+
+# print(str_list[str_len.index(min(str_len))], min(str_len))
+# print(str_list[str_len.index(max(str_len))], max(str_len))
+
+
+
+
 # x = [len(word) for word in value.split()]
-# min,max  = [i for i in zip(value.split(),x)][x.index(max(x))],[i for i in zip(value.split(),x)][x.index(min(x))] 
+# min,max  = [i for i in zip(value.split(),x)][x.index(min(x))],\
+#         [i for i in zip(value.split(),x)][x.index(max(x))] 
 # print(*(list(min)),sep=' ')
 # print(*(list(max)),sep=' ')
-
-# str_list = input().split()
-# str_len = [len(word) for word in str_list]
-# print(str_list.index(min(str_len)), min(str_len))
-# print(str_list.index(max(str_len)), max(str_len))
-
-
-
-# l = list(input().split())
-# l2 = []
-# for i in range(len(l)):
-#   l2.append(len(l[i]))
-# print(l[l2.index(max(l2))],l[l2.index(min(l2))])
-
-
-
-# string_value='''Wikipedia has been criticized for exhibiting systemic bias, for presenting a mixture of "truth, half truth, and some falsehoods", and for being subject to manipulation and spin in controversial topics'''.split()
-# print([ word[::-1] for word in string_value if len(word) % 3 == 0])
 
