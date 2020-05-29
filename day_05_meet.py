@@ -8,8 +8,8 @@
 
 # Qn 1
 
-ip = 'XYZ'
-op = 'ABC'
+# ip = 'XYZ'
+# op = 'ABC'
 
 # print('A' ,ord('A'))  # 65
 # print('Z ',ord('Z'))  # 90
