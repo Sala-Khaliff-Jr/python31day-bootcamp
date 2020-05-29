@@ -1,5 +1,8 @@
 
 # https://github.com/rvsp/python-31days-bootcamp/blob/master/string.jpg
+# https://en.wikipedia.org/wiki/ASCII
+# https://en.wikipedia.org/wiki/Unicode
+# https://docs.python.org/3.4/library/functions.html?highlight=ord#ord
 
 # Day 5
 
